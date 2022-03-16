@@ -1,0 +1,25 @@
+#two .tableBar .title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#two .tableBar .title li {
+    padding: 10px 5px;
+    border: 1px solid #ccc;
+}
+
+#two .title li.active {
+    background-color: red;
+}
+
+#two .content li {
+    display: none;
+}
+
+#two .content li.show {
+    display: block
+}
+
+#two .content li.hide {
+    display: none;
+}

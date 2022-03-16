@@ -1,0 +1,32 @@
+body {
+    overflow: hidden;
+}
+
+#page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#one,
+#two,
+#three,
+#four {
+    width: 50vw;
+    height: 50vh;
+}
+
+#one {
+    background-color: lime;
+}
+
+#two {
+    background-color: yellow;
+}
+
+#three {
+    background-color: blue;
+}
+
+#four {
+    background-color: red;
+}
